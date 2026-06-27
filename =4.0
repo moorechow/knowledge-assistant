@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: bcrypt in d:\agentÊµ¼ù\knowledge-assistant\venv\lib\site-packages (5.0.0)
+
+[notice] A new release of pip is available: 25.3 -> 26.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip

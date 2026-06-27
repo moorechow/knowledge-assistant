@@ -1,0 +1,13 @@
+# 强制所有文本文件使用 LF（Unix 换行）
+# 代码仓库应该在 Linux/Docker 上运行，LF 是唯一正确的换行符
+* text=auto eol=lf
+
+# 二进制文件不改动
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
