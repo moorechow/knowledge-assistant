@@ -1,0 +1,17 @@
+[Unit]
+Description=Knowledge Assistant Streamlit App
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/knowledge-assistant
+Environment="HF_ENDPOINT=https://hf-mirror.com"
+ExecStart=/opt/knowledge-assistant/venv/bin/python -m streamlit run src/web.py --server.port 8501 --server.address 127.0.0.1
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,27 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+.git/
+.gitignore
+
+# 运行数据（通过 volume 挂载，不打包进镜像）
+data/chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# 本地 .env（服务器上单独创建）
+.env
+
+# 部署产物不需要
+deploy/
+
+# 临时的 tar 包
+*.tar.gz

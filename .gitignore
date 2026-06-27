@@ -1,0 +1,42 @@
+# 敏感信息 — 永远不要提交！
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+
+# 运行数据
+data/chroma_db/
+data/*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log
+
+# 临时文件
+*.tar.gz
+*.zip
+verify.py

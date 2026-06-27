@@ -1,0 +1,9 @@
+[general]
+email = ""
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+port = 8501
